@@ -30,6 +30,8 @@ INSTALLED_APPS = [
     'corsheaders',
     # Custom apps
     'users',
+    'shopowner',
+    'recommendations',
 ]
 
 
