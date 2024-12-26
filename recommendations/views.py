@@ -66,7 +66,7 @@ def extract_recommendation_details(question):
 
     Question: {question}
     Response:
-    Avoid providing any additional information, explanations, or details beyond these components.
+    Strictly avoid providing any additional information, explanations, or details beyond these components.
     """
     prompt = PromptTemplate(template=template, input_variables=["question"])
     llm_chain = LLMChain(prompt=prompt, llm=llm)

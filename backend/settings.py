@@ -32,6 +32,7 @@ INSTALLED_APPS = [
     'users',
     'shopowner',
     'recommendations',
+    'hardware_data',
 ]
 
 
